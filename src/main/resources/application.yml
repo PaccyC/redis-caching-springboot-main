@@ -22,6 +22,12 @@ spring:
       time-to-live: 60000
 
 
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true
+
 
 server:
   port: 8000
